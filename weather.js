@@ -33,20 +33,20 @@ search_icon.addEventListener("click", ()=>{
       location_location.innerHTML=val.name.toUpperCase()  
       if(val.weather[0].description=="mist")
       {
-        img_img.querySelector("img").setAttribute("src", "/eab96b88f8d04cd590fa0be0ccac9430.jpeg");
+        img_img.querySelector("img").setAttribute("src", "eab96b88f8d04cd590fa0be0ccac9430.jpeg");
       
       } 
       else if(val.weather[0].description=="clear sky")
       {
         
-       img_img.querySelector("img").setAttribute("src", "/istockphoto-182493016-612x612.jpg");
+       img_img.querySelector("img").setAttribute("src", "istockphoto-182493016-612x612.jpg");
        // img_img.querySelector("img").setAttribute("src", "/eab96b88f8d04cd590fa0be0ccac9430.jpeg");
       
 
       }  
       else 
       {
-        img_img.querySelector("img").setAttribute("src", "/transparent-realistic-cloud-cloud-sky-white-floating-white-cloud-with-scattered-clouds-floating-in-sky657c5a53306dc4.0600392017026484031984.jpg");
+        img_img.querySelector("img").setAttribute("src", "transparent-realistic-cloud-cloud-sky-white-floating-white-cloud-with-scattered-clouds-floating-in-sky657c5a53306dc4.0600392017026484031984.jpg");
       //img_img.querySelector("img").setAttribute("src", "/eab96b88f8d04cd590fa0be0ccac9430.jpeg");
       
       }  
